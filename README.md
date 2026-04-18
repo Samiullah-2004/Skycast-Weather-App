@@ -22,4 +22,4 @@ A clean, minimal weather app that gives you live atmospheric data for any city i
 - Open-Meteo Geocoding API
 
 ## 📸 Screenshot
-![Screenshot](screenshot.png)
+![Screenshot](Webpic.png)

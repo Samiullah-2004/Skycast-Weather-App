@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <title>Skycast — Weather</title>
+</head>
+<body>
+
+  <div class="bg-orbs">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+  </div>
+
+  <main class="app">
+
+    <header class="header">
+      <div class="logo">SKY<span>CAST</span></div>
+      <p class="tagline">Real-time atmospheric data</p>
+    </header>
+
+    <div class="search-wrap">
+      <div class="search-box">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="cityInput" placeholder="Enter city name…" autocomplete="off" />
+        <button id="searchBtn">GO</button>
+      </div>
+    </div>
+
+    <div class="result-area" id="resultArea">
+      <div class="placeholder">
+        <div class="placeholder-icon">🌍</div>
+        <p>Search any city to get live weather</p>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
