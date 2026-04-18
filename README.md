@@ -3,7 +3,7 @@
 A clean, minimal weather app that gives you live atmospheric data for any city in the world.
 
 ## 🌐 Live Demo
-[Click here to view](https://samiullah-2004.github.io/skycast-weather-app/)
+[Click here to view](https://samiullah-2004.github.io/Skycast-Weather-App/)
 
 ## ✨ Features
 - Search any city worldwide
